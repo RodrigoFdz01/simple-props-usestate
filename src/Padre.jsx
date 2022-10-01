@@ -28,7 +28,7 @@ const Padre = () => {
         <button type="submit">Buscar</button>
       </form>
       <h4>componente padre: {search}</h4>
-      componente Hijo : <Hijo handleChange={setSearch} />
+      <Hijo handleChange={search} />
     </>
   );
 };
